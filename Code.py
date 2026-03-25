@@ -39,4 +39,4 @@ tk.Button(janela, text="+", command=lambda: add_num("+")).grid(row=4, column=2)
 tk.Button(janela, text="=", command=resultado).grid(row=4, column=3)
 tk.Button(janela, text="C", command=limpar).grid(row=5, column=0, columnspan=4)
 
-janela.mainloop()
+janela.mainloop() 
